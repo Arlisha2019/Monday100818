@@ -7,7 +7,7 @@ menu.setAttribute("id", "nav_container");
 
 let a1 = document.createElement("A")
 let title = document.createTextNode("High on Coding");
-a1.setAttribute("class", "menu_link")
+a1.setAttribute("class", "menu")
 a1.appendChild(title);
 
 let a2 = document.createElement("A")
@@ -24,7 +24,6 @@ a3.appendChild(title);
 let info = document.createElement("div");
 info.setAttribute("id", "reviews");
 
-//let div2 = document.getElementById("reviews");
 
 let heading1 = document.createElement("h3");
 heading1.setAttribute("class", "curse_heading");
@@ -35,6 +34,8 @@ let p1 = document.createElement("p");
 p1.setAttribute("class", "p1_para");
 let para1 = document.createTextNode("When you want to buy any application from the Apple iTunes store you have more choices than you can handle. Most of the users scroll past the application description completely avoiding it like ads displayed on the right column of your webpage. Their choice is dependent on three important factors price, screenshot and reviews.")
 p1.appendChild(para1);
+
+//--------------------------------
 
 let info2 = document.createElement("div");
 info2.setAttribute("id", "info_2");
@@ -54,7 +55,25 @@ subHead.setAttribute("class", "small_heading");
 let small = document.createTextNode("12 Comments   124 likes")
 subHead.appendChild(small);
 
+//*************************
 
+let heading3 = document.createElement("h4");
+heading3.setAttribute("class", "heading_2");
+let swift = document.createTextNode("Introduction to Swift");
+heading3.appendChild(swift);
+
+
+let p3 = document.createElement("p");
+p3.setAttribute("class", "p2_para");
+let para3 = document.createTextNode("Swift is a modern programming language developed by Apple to create the next generation of iOS and OSX applications.Swift is a fairly new language and still in development but it clearly reflects the intentions and the future direction. This article will revolve around the basic concepts in the Swift language and how you can get started.");
+p3.appendChild(para3);
+
+let subHead2 = document.createElement("h6");
+subHead2.setAttribute("class", "small_heading");
+let small2 = document.createTextNode("15 comments    45 likes")
+subHead2.appendChild(small2);
+
+//------------------------
 
 
 
@@ -78,4 +97,13 @@ info2.appendChild(p2);
 app.appendChild(info2);
 
 info2.appendChild(subHead);
+app.appendChild(info2);
+
+info2.appendChild(heading3);
+app.appendChild(info2);
+
+info2.appendChild(p3);
+app.appendChild(info2);
+
+info2.appendChild(subHead2);
 app.appendChild(info2);

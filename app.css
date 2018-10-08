@@ -1,5 +1,14 @@
+#container {
+  display: flex;
+  flex-direction: column;
+}
 
 
+.menu {
+  margin: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
 
 .menu_link {
   margin: 25px;
@@ -7,5 +16,42 @@
 
 #nav_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  background-color: #74b9ff;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#info_2 {
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#reviews {
+  background-color: #b2bec3;
+  margin-top: 10px;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.heading_2 {
+  color: #74b9ff;
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+}
+
+.small_heading {
+  background-color: #e17055;
+  color: white;
+  margin-top: 0px;
+}
+
+.p2_para {
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
